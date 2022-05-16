@@ -7,7 +7,8 @@
         <h2 class="mr-1">Project:</h2>
         <h2 style="color:#ED69BD;">{{cardData.projectnumber}}</h2>
       </div>
-      <img class="h-20   object-cover rounded-xl" :src="cardData.image" alt="projects"/>
+      <img class="h-12 w-12   object-cover rounded-xl" :src="cardData.image" :alt="project"/>
+      {{card}}
       <div class="p-2">
         <!-- Heading -->
         <h2 class="font-bold" style="font-size:16px;">{{cardData.name}}</h2>
