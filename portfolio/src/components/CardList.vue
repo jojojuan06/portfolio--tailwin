@@ -1,5 +1,5 @@
 <template>
-    <div class=" h-screen flex flex-wrap justify-center items-center gap-x-10 gap-y-10 pt-4">
+    <div class="flex flex-wrap justify-center items-center gap-x-10 gap-y-10 pb-4 pt-4">
         <div v-for="(card, index) in cards" :key="index">
             <!-- kebab-case en HTML -->
             <Card :card-data="card"/>

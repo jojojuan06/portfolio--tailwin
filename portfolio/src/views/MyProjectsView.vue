@@ -1,6 +1,6 @@
 <!--App.vue-->
 <template>
-    <div class="h-screen  bg-gray-500 bg-cover">
+    <div class="bg-gray-500 bg-cover">
       <CardList/>
     </div>
  </template>
