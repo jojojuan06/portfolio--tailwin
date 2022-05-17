@@ -1,7 +1,7 @@
 <template>
   <header>
     <div>
-      <nav class="p-5 bg-cyan-600 shadow md:flex md:items-center md:justify-between">
+      <nav class=" bg-cyan-600 shadow md:flex md:items-center md:justify-between">
         <div>
           <span class="cursor-pointer">
             <img
@@ -16,10 +16,10 @@
           v-for="(item, index) in itemMenus"
           :key="index"
         >
-          <li class="mx-4">
+          <li class="p-6 hover:bg-gradient-to-r from-pink-900 via-pink-500 to-orange-800">
             <RouterLink
               :to="item.path"
-              class="text-xl text-white focus:bg-gradient-to-r focus:p-6 from-pink-900 via-pink-500 to-orange-800"
+              class="text-xl text-white target:shadow-lg"
               >{{ item.title }}</RouterLink
             >
           </li>
@@ -69,6 +69,6 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @import url('./assets/css/reset.css');
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <footer class="pt-12  text-white bg-[#3e869d]"  style="max-height: 150px;">
+    <footer class="pt-6  text-white bg-[#3e869d]"  style="max-height: 150px;">
             <div class="justify-center items-center">
                 <!-- boucle sur chaque link (ajouter dans le futur et je les affiches   -->  
                 <div  class="flex justify-center items-center">
@@ -10,7 +10,7 @@
                     </div>
                     </a>
                 </div>
-                <div class="py-4 text-center" cols="12">
+                <div class="pb-3 text-center">
                     {{ new Date().getFullYear() }} — <strong>Portfolio</strong>
                 </div>
             </div>
