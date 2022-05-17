@@ -6,7 +6,7 @@
           <span class="cursor-pointer">
             <img
               class="h-10 inline ml-4 mr-4"
-              src="./images/logoJojo.png"
+              src="./assets/images/logoJojo.png"
               alt="mon logo"
             />
           </span>
@@ -27,12 +27,19 @@
       </nav>
     </div>
   </header>
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
+    <Footer/>
 </template>
 
 <script>
+import Footer from './components/Footer.vue'
+
 export default {
-  components: {},
+  components: {
+    Footer
+  },
   data() {
     return {
       itemMenus: [
