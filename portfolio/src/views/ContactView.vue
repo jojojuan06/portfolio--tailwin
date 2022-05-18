@@ -1,9 +1,9 @@
 <template>
     <div style="height: 100vh;"  class="flex justify-center items-center">
         <div class="flex flex-col md:flex-row flex-wrap w-screen justify-center items-center">
-            <div class="barre relative mr-4 w-screen text-center" style="max-width:300px">
-                <h2 class="font-bold text-4xl pb-4">Let's talk business</h2>
-                <p class="max-w-[300px]">een the industry's standard dummy text ever since the 1500s, 
+            <div class="barre relative md:mr-12 w-screen text-center" style="max-width:300px">
+                <h2 class="font-bold text-[2rem] pb-4">Let's talk business</h2>
+                <p class="max-w-[300px] text-center">een the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled 
                     it to make a type specimen book.
                 </p>
