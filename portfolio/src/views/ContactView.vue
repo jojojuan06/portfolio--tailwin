@@ -12,23 +12,24 @@
                 <!-- l'évènement `submit` ne rechargera plus la page -->
                 <form ref="form"  @submit.prevent="sendEmail" class="w-[250px]">
                     <label class="block mb-6">
-                        <span class="text-gray-700">Votre nom</span>
+                        <span class="text-black font-bold">Votre nom</span>
                         <input  type="text" name="name" class="py-3 text-center placeholder-[black] block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Joe Bloggs"/>
                     </label>
                     <label class="block mb-6">
-                        <span class="text-gray-700">Votre adresse mail</span>
+                        <span class="text-black font-bold">Votre adresse mail</span>
                         <input  name="email" type="email" class="py-3 text-center placeholder-[black] block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="joe.bloggs@example.com" required/>
                     </label>
                     <label class="block mb-6">
-                        <span class="text-gray-700">Message</span>
+                        <span class="text-black font-bold">Message</span>
                         <textarea  name="message" class="pt-6 text-center placeholder-[black] h-20 block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"  placeholder="Tapez votre text ici...">
                         </textarea>
                     </label>
-                    <div class="mb-6">
+                    <div class="mb-6 relative">
                         <input
                         type="submit"
                         class="
-                            delay-500
+                            transition-all
+                            duration-700
                             font-bold
                             h-10
                             w-full
@@ -36,9 +37,9 @@
                             text-indigo-100
                             bg-[#3e869d]
                             hover:transition-colors
-                            duration-150
                             focus:shadow-outline
                             hover:bg-[#ED69BD]
+                            hover:scale-[1.06]
                         "
                         value="Contactez-moi"
                         >
