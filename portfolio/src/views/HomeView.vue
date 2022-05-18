@@ -55,16 +55,26 @@ li {
         height: 100px;
         left: 13px;
         bottom: 140px;
+        animation: top-border ease-in-out .9s forwards;
     }
     ul:before {
         content:"";
         position: absolute;
         background: black;
         width: 4px;
-        height: 100px;
         left: 13px;
         top: 140px;
+        animation: bottom-border ease-in-out .9s forwards;
     }
 }
+    
+@keyframes top-border {
+    0% { height: 0px; }
+    100% { height: 100px; }
+}
 
+@keyframes bottom-border {
+    0% { height: 0px; }
+    100% { height: 100px; }
+}
 </style>
