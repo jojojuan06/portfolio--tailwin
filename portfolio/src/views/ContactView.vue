@@ -9,22 +9,23 @@
                 </p>
             </div>
             <div class="flex justify-center items-center">
-                <form method="POST" action="https://herotofu.com/start" class="w-[250px]">
+                <!-- l'évènement `submit` ne rechargera plus la page -->
+                <form ref="form"  @submit.prevent="sendEmail" class="w-[250px]">
                     <label class="block mb-6">
                         <span class="text-gray-700">Votre nom</span>
-                        <input type="text" name="name" class="font-text-center placeholder-[black] block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Joe Bloggs"/>
+                        <input  type="text" name="name" class="py-3 text-center placeholder-[black] block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Joe Bloggs"/>
                     </label>
                     <label class="block mb-6">
                         <span class="text-gray-700">Votre adresse mail</span>
-                        <input name="email" type="email" class="text-center placeholder-[black] block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="joe.bloggs@example.com" required/>
+                        <input  name="email" type="email" class="py-3 text-center placeholder-[black] block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="joe.bloggs@example.com" required/>
                     </label>
                     <label class="block mb-6">
                         <span class="text-gray-700">Message</span>
-                        <textarea name="message" class="pt-6 text-center placeholder-[black] h-20 block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"  placeholder="Tapez votre text ici...">
+                        <textarea  name="message" class="pt-6 text-center placeholder-[black] h-20 block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"  placeholder="Tapez votre text ici...">
                         </textarea>
                     </label>
                     <div class="mb-6">
-                        <button
+                        <input
                         type="submit"
                         class="
                             delay-500
@@ -39,9 +40,8 @@
                             focus:shadow-outline
                             hover:bg-[#ED69BD]
                         "
+                        value="Contactez-moi"
                         >
-                        Contactez-moi
-                        </button>
                     </div>
                 </form>
             </div>
@@ -51,7 +51,18 @@
 </template>
 
 <script>
-export default {};
+import emailjs from 'emailjs-com';
+export default {
+        name:'Contact',
+        methods: {
+        sendEmail() {
+            emailjs.sendForm('service_kdb3q67', 'template_oz4cy29',this.$refs.form,'GcXikoVfjeR6n0TXK') 
+            .then((res) => {
+                alert("Message envoyé avec success");
+            }).catch((error) => { console.error(error); });
+        }
+    }
+}
 </script>
 
 <style scoped>
