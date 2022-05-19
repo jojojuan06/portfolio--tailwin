@@ -34,11 +34,10 @@
                             w-full
                             px-5
                             text-black
-                            bg-[transparent]
                             border-solid border-2 border-black
                             focus:shadow-outline
                             hover:bg-[#ED69BD]
-                            btn--hover
+                            hover:scale-[1.05]
                         "
                         value="Contactez-moi"
                         >

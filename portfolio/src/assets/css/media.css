@@ -31,11 +31,3 @@
     100% { height: 400px; }
 }
 
-/* btn animation */
-@keyframes btn-scale {
-    0%   {transform: scale(0);}
-    100% {transform: scale(1.01);}
-}
-.btn--hover:hover {
-    animation:btn-scale forwards;
-}

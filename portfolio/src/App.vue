@@ -16,7 +16,7 @@
           v-for="(item, index) in itemMenus"
           :key="index"
         >
-          <li class="p-6 hover:bg-gradient-to-r from-pink-900 via-pink-500 to-orange-800">
+          <li class="p-6 hover:bg-[#ED69BD]">
             <RouterLink
               :to="item.path"
               class="text-xl text-white target:shadow-lg"

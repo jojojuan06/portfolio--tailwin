@@ -16,7 +16,7 @@
                 </p>  
             </div>
             <div class="flex justify-center items-center">
-                <a href="#" class="mt-4 font-bold text-white bg-gradient-to-r from-pink-900 via-pink-500 to-orange-800 px-3 py-1 rounded-2xl">Contacter Moi</a>
+                <router-link to="/contact" class="duration-700  border-solid border-2 border-black hover:scale-[1.05] mt-4 font-bold text-black hover:bg-[#ED69BD] px-3 py-1 rounded-2xl">Contacter Moi</router-link>
             </div>
         </div>
         
