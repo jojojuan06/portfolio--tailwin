@@ -1,5 +1,5 @@
 <template>
-    <div style="height: 100vh;" class="flex flex-col justify-start items-center">
+    <div style="height: 100vh;" class="flex flex-col justify-start  items-center">
         <div class="flex justify-center items-center relative img--after" >
             <img src="../assets/images/img--cv.png" class="w-[8rem] " alt="">
         </div>

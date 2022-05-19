@@ -1,11 +1,13 @@
 <template>
-    <div class="flex ">
-        <ul class="flex flex-wrap justify-center items-center">
-            <li style="max-width:400px" class="flex  pb-8 flex-col justify-center items-center" v-for="(cv, index) in listCv" :key="index">
+    <div class="flex flex-col">
+        <ul class="flex flex-wrap justify-center  items-center">
+            <li class="flex  grow basis-[400px] pb-8 flex-col justify-center items-center" v-for="(cv, index) in listCv" :key="index">
             <h2 class="font-bold text-center">{{cv.title}}</h2>
-            <p class="w-2/4 text-center">{{cv.descriptions}}</p>
-            </li> 
+            <p style="max-width:300px" class="w-2/4 text-center pb-4">{{cv.descriptions}}</p>
+            <hr class="h-4 w-[70%] md:hidden"> 
+            </li>
         </ul>
+        
     </div>
 </template>
 
