@@ -25,28 +25,29 @@ export default {
 </script>
 
 <style scoped>
-.border--img:before {
-    content:"";
-    position: absolute;
-    background: black;
-    width: 300px;
-    height: 2px;
-    left: 160px;
-    top: 85px;
-    animation: img-border ease-in-out .9s forwards; 
+@media screen and (min-width:1450px) {
+    .border--img:before {
+        content:"";
+        position: absolute;
+        background: black;
+        height: 2px;
+        left: 160px;
+        top: 85px;
+        animation: img-border ease-in-out .9s forwards; 
+    }
+    .border--img:after {
+        content:"";
+        position: absolute;
+        background: black;
+        height: 2px;
+        right: 160px;
+        top: 85px;
+        animation: img-border ease-in-out .9s forwards; 
+    }
+    @keyframes img-border {
+        0% { width: 0px; }
+        100% { width: 500px; }
+    }
 }
-.border--img:after {
-    content:"";
-    position: absolute;
-    background: black;
-    width: 300px;
-    height: 2px;
-    right: 160px;
-    top: 85px;
-    animation: img-border ease-in-out .9s forwards; 
-}
-@keyframes img-border {
-    0% { width: 0px; }
-    100% { width: 400px; }
-}
+
 </style>
