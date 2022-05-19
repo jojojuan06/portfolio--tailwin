@@ -4,8 +4,8 @@
             <img src="../assets/images/img--cv.png" class=" w-[8rem]" alt="">
         </div>
         <CvList/>
-        <div class="flex  ml-12 md:ml-32 mb-4 md:mb-0">
-            <ul class="flex flex-col justify-center items-center">
+        <div class="center flex  md:ml-24 mb-4 md:mb-0">
+            <ul class=" flex flex-col justify-center  items-center md:p-4">
             <h3 class="font-bold text-center">Réference Outils</h3>
                 <li><font-awesome-icon :icon="['fab', 'js']" class="text-[yellow] bg-black mr-2"/>JavaScript
                 <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/>
@@ -64,4 +64,66 @@ export default {
     }
 }
 
+.center {
+    position: absolute;
+    top: 65%;
+    left:10%;
+    transform: translate(-50%,-50%);
+}
+ul{
+    position: relative;
+    text-decoration: none;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+}
+ul:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+ul:hover:after {
+    animation: border--ul 2s  linear forwards;
+}
+@keyframes border--ul {
+    0%{
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: black;
+    }
+    33% {
+        width:100%;
+        height: 100%;
+        border-top-color:transparent;
+        border-right-color: transparent;
+        border-bottom-color: black;
+        border-left-color: black;
+    }
+    66% {
+        width:100%;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: black;
+        border-bottom-color: black;
+        border-left-color: black;
+    }
+     100% {
+        width:100%;
+        height: 100%;
+        border-top-color: black;
+        border-right-color: black;
+        border-bottom-color: black;
+        border-left-color: black;
+    }
+}
 </style>
