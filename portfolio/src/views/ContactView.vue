@@ -28,18 +28,17 @@
                         <input
                         type="submit"
                         class="
-                            transition-all
                             duration-700
                             font-bold
                             h-10
                             w-full
                             px-5
-                            text-indigo-100
-                            bg-[#3e869d]
-                            hover:transition-colors
+                            text-black
+                            bg-[transparent]
+                            border-solid border-2 border-black
                             focus:shadow-outline
                             hover:bg-[#ED69BD]
-                            hover:scale-[1.06]
+                            btn--hover
                         "
                         value="Contactez-moi"
                         >
