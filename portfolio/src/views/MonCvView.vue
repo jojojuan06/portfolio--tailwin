@@ -117,7 +117,7 @@ ul:hover:after {
         border-bottom-color: black;
         border-left-color: black;
     }
-     100% {
+    100% {
         width:100%;
         height: 100%;
         border-top-color: black;
