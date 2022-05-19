@@ -11,10 +11,10 @@ import { faTwitter, faYoutube, faInstagram, faLinkedin, faDiscord , faJs, faHtml
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
-import { faFile,faCube ,faFileLines} from '@fortawesome/free-solid-svg-icons'
+import { faFile,faCube ,faFileLines,faCircle} from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
-library.add(faTwitter, faYoutube, faInstagram, faLinkedin, faDiscord, faJs,faHtml5,faVuejs, faFile, faCube,faFileLines)
+library.add(faTwitter, faYoutube, faInstagram, faLinkedin, faDiscord, faJs,faHtml5,faVuejs, faFile, faCube,faFileLines, faCircle)
 
 const app = createApp(App)
 //app.config.productionTip = false

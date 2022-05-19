@@ -1,17 +1,31 @@
 <template>
-    <div style="height: 100vh;" class="flex flex-col relative justify-start border--img">
+    <div  class="md:h-screen flex flex-col relative justify-start border--img">
         <div class="flex justify-center items-center" >
             <img src="../assets/images/img--cv.png" class=" w-[8rem]" alt="">
         </div>
         <CvList/>
-        <div class="flex flex-col">
-            <h3 class="font-bold text-center">Réference Outils</h3>
+        <div class="flex  ml-12 md:ml-32 mb-4 md:mb-0">
             <ul class="flex flex-col justify-center items-center">
-                <li><font-awesome-icon :icon="['fab', 'js']" class="text-[yellow] bg-black mr-2"/>JavaScript</li>
-                <li><font-awesome-icon :icon="['fab', 'vuejs']" class="text-[green] mr-2"/>/>Vue-js</li>
-                <li><font-awesome-icon :icon="['fab', 'html5']" class="text-[blue] mr-2"/>Html/Css</li>
-                <li><font-awesome-icon :icon="['fas', 'file-lines']" class="text-[yellow] mr-2 bg-black"/>Google-Slide</li>
-                <li><font-awesome-icon :icon="['fas', 'cube']" class="text-[#3e869d] mr-2"/>Sequelize</li>
+            <h3 class="font-bold text-center">Réference Outils</h3>
+                <li><font-awesome-icon :icon="['fab', 'js']" class="text-[yellow] bg-black mr-2"/>JavaScript
+                <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/>
+                </li>
+                <li class="mr-2"><font-awesome-icon :icon="['fas', 'cube']" class="text-[#3e869d] mr-2"/>Sequelize
+                <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/></li>
+                <li class="mr-2"><font-awesome-icon :icon="['fab', 'vuejs']" class="text-[green] mr-2"/>Vue-js
+                <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/>
+                <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/>
+                </li>
+                <li class="ml-8"><font-awesome-icon :icon="['fab', 'html5']" class="text-[blue] mr-2"/>Html/Css
+                <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/>
+                <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/>
+                <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/>
+                </li>
+                <li class="ml-14"><font-awesome-icon :icon="['fas', 'file-lines']" class="text-[yellow] mr-2 bg-black"/>Google-Slide
+                <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/>
+                <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/>
+                <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/>
+                </li>
             </ul>
         </div>
     </div>
