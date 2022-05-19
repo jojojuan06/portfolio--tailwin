@@ -1,8 +1,8 @@
 <template>
     <div class="flex ">
-        <ul class="flex flex-wrap">
+        <ul class="flex flex-wrap justify-center items-center">
             <li style="max-width:400px" class="flex  pb-8 flex-col justify-center items-center" v-for="(cv, index) in listCv" :key="index">
-            <h2 class="text-center">{{cv.title}}</h2>
+            <h2 class="font-bold text-center">{{cv.title}}</h2>
             <p class="w-2/4 text-center">{{cv.descriptions}}</p>
             </li> 
         </ul>
