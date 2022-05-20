@@ -1,20 +1,16 @@
 .bodyChange {
-    background-color: black;
+background-color: black;
 }
 .bodyChange nav {
 background-color: white;
-transition:all 500ms;
+transition:all 0.5s;
 
 }
 .bodyChange a {
 color: black;
 }
-.bodyChange p {
-    color: white;
-}
-.bodyChange h2 {
-    color: white;
-}
+.bodyChange p, 
+.bodyChange h2, 
 .bodyChange li {
     color: white;
 }
