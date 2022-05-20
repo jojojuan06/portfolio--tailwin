@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Card -->
-    <div style="max-width: 300px;max-height: 350px;height:350px" class="relative w-60 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
+    <div style="max-width: 300px;max-height: 350px;height:350px" class="flex flex-col justify-between relative w-60 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
       <!-- Image -->
       <div class="flex justify-between">
           <div class="flex font-bold">
