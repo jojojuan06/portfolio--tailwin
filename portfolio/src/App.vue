@@ -79,7 +79,6 @@ export default {
       toggleMode(){
         this.mode = !this.mode
         const body = document.querySelector('body')
-          console.log("avant le if",this.mode);
       if (this.mode == false) {
           body.classList.add('bodyChange');
         } 
