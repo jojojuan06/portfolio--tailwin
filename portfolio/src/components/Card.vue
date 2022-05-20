@@ -27,12 +27,12 @@
         <div>
         </div>
       </div>
-    </div>
-      <div class="flex relative bottom-12 items-center justify-center">
+      <div class="flex items-center justify-center">
         <a role="button" href="#" class="text-white bg-sky-500 px-3 py-1 rounded-md hover:bg-purple-700">
         Learn More
         </a>
       </div>
+    </div>
   </div>
 </template>
 
