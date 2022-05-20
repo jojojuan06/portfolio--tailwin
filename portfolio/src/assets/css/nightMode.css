@@ -1,0 +1,25 @@
+.bodyChange {
+    background-color: black;
+}
+.bodyChange nav {
+background-color: white;
+transition:all 500ms;
+
+}
+.bodyChange a {
+color: black;
+}
+.bodyChange p {
+    color: white;
+}
+.bodyChange h2 {
+    color: white;
+}
+.bodyChange li {
+    color: white;
+}
+
+.bodyChange .cv--img {
+    background-color: white;
+    border-radius: 50%;
+}

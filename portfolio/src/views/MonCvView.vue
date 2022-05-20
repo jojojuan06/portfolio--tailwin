@@ -1,7 +1,7 @@
 <template>
     <div  class="md:h-screen flex flex-col relative justify-start border--img">
         <div class="flex justify-center items-center" >
-            <img src="../assets/images/img--cv.png" class=" w-[8rem]" alt="">
+            <img src="../assets/images/img--cv.png" class="cv--img w-[8rem]" alt="">
         </div>
         <CvList/>
         <div class="flex  md:ml-24 mb-4 md:mb-0">

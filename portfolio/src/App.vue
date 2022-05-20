@@ -32,7 +32,7 @@
         <span  v-if="mode" style="border-radius:50%; padding: 10px 14px 10px 14px;" class="font-bold  bg-black text-white">
           <font-awesome-icon :icon="['fas', 'sun']"/></span> 
         <span  v-else style="border-radius:50%; padding: 10px 14px 10px 14px;" class="bg-white text-black">
-          <font-awesome-icon :class="toggleClass" :icon="['fas', 'moon']" /></span>
+          <font-awesome-icon  :icon="['fas', 'moon']" /></span>
       </button>
     </div>
   <main>
@@ -51,7 +51,6 @@ export default {
   data() {
     return {
       mode:true,
-      toggleClass: 'bodyChange',
       itemMenus: [
         {
           title: "Home",
@@ -79,11 +78,20 @@ export default {
   methods:{
       toggleMode(){
         this.mode = !this.mode
+        const body = document.querySelector('body')
+          console.log("avant le if",this.mode);
+      if (this.mode == false) {
+          body.classList.add('bodyChange');
+        } 
+      else {
+          body.classList.remove('bodyChange');
+      }
     }
   }
 };
 </script>
 
 <style>
+@import url('./assets/css/nightMode.css');
 @import url('./assets/css/reset.css');
 </style>
