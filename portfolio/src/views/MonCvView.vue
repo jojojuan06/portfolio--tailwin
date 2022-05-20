@@ -64,17 +64,12 @@ export default {
     }
 }
 
-
-ul{
+@media screen and (min-width:768px) {
+    ul{
     position: relative;
     text-decoration: none;
-    width: 300px;
-    height: 350px;
-    text-align: center;
-    line-height: 50px;
-    display: inline-block;
 }
-ul:after{
+ul:before{
     content: '';
     position: absolute;
     top: -2px;
@@ -83,40 +78,82 @@ ul:after{
     height: 0;
     background: transparent;
     border: 2px solid transparent;
-    animation: border--ul 2s  ease-out forwards
 }
-@keyframes border--ul {
-    0%{
+
+ul:hover:before {
+    animation: border--before 1.5s linear forwards
+}
+
+@keyframes border--before {
+        0%{
+            width: 0;
+            height: 0;
+            border-top-color: black;
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+        }
+        50% {
+            width:100%;
+            height: 0;
+            border-top-color:black;
+            border-right-color: black;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+        }
+        100% {
+            width:100%;
+            height: 100%;
+            border-top-color: black;
+            border-right-color: black;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+        }
+    
+    }
+
+    ul:after{
+        content: '';
+        position: absolute;
+        top: -2px;
+        left:-2px;
         width: 0;
         height: 0;
-        border-top-color: transparent;
-        border-right-color: transparent;
-        border-bottom-color: transparent;
-        border-left-color: black;
+        background: transparent;
+        border: 2px solid transparent;
     }
-    33% {
-        width:100%;
-        height: 100%;
-        border-top-color:transparent;
-        border-right-color: transparent;
-        border-bottom-color: black;
-        border-left-color: black;
+
+    ul:hover:after {
+        animation: border--after 1.5s linear forwards
     }
-    66% {
-        width:100%;
-        height: 100%;
-        border-top-color: transparent;
-        border-right-color: black;
-        border-bottom-color: black;
-        border-left-color: black;
-    }
-    100% {
-        width:100%;
-        height: 100%;
-        border-top-color: black;
-        border-right-color: black;
-        border-bottom-color: black;
-        border-left-color: black;
+
+    @keyframes border--after {
+        0%{
+            width: 0;
+            height: 0;
+            border-top-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+            border-left-color: black;
+        }
+        50% {
+            width:0;
+            height: 100%;
+            border-top-color:transparent;
+            border-right-color: transparent;
+            border-bottom-color: black;
+            border-left-color: black;
+        }
+        100% {
+            width:100%;
+            height: 100%;
+            border-top-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: black;
+            border-left-color: black;
+        }
+    
     }
 }
+
 </style>
