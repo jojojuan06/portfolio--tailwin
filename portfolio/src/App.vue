@@ -28,7 +28,12 @@
     </div>
     </header>
     <div class="flex justify-end items-center mr-8 pt-4">
-      <button class="rounded-full h-8 w-8 text-white  bg-black themeLogo">&#9789;</button>
+      <button @click="toggleMode" class="themeLogo">
+        <span  v-if="mode" style="border-radius:50%; padding: 10px 14px 10px 14px;" class="font-bold  bg-black text-white">
+          <font-awesome-icon :icon="['fas', 'sun']"/></span> 
+        <span  v-else style="border-radius:50%; padding: 10px 14px 10px 14px;" class="bg-white text-black">
+          <font-awesome-icon :class="toggleClass" :icon="['fas', 'moon']" /></span>
+      </button>
     </div>
   <main>
     <RouterView />
@@ -45,6 +50,8 @@ export default {
   },
   data() {
     return {
+      mode:true,
+      toggleClass: 'bodyChange',
       itemMenus: [
         {
           title: "Home",
@@ -67,8 +74,13 @@ export default {
           icons: "mdi-contacts",
         },
       ],
-    };
+    }
   },
+  methods:{
+      toggleMode(){
+        this.mode = !this.mode
+    }
+  }
 };
 </script>
 
