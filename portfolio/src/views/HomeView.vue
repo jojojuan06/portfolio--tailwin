@@ -9,7 +9,7 @@
             <div style="max-width:400px;" class="flex flex-col justify-center items-center">
                 <h2 class="font-bold">Bonjour !</h2>
                 <br>
-                <p class="font-bold">Je M’apelle Jonathan Morin</p>
+                <p class="font-bold">Je m’apelle Jonathan Morin</p>
                 <br>
                 <p class="font-bold w-2/4 text-center">een the industry's standard dummy text ever since the 1500s,when an unknown 
                 printer took a galley of type and scrambled it to make a type specimen book.<strong class="text-[#EEAB61]">Web Designer </strong>! 
