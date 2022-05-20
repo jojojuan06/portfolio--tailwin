@@ -1,6 +1,6 @@
 <!--App.vue-->
 <template>
-    <div class="bg-gray-500 bg-cover flex justify-center items-center">
+    <div class="bg-cover flex justify-center items-center">
       <CardList/>
     </div>
  </template>

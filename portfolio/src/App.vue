@@ -26,7 +26,10 @@
         </ul>
       </nav>
     </div>
-  </header>
+    </header>
+    <div class="flex justify-end items-center mr-8 pt-4">
+      <button class="rounded-full h-8 w-8 text-white  bg-black themeLogo">&#9789;</button>
+    </div>
   <main>
     <RouterView />
   </main>
@@ -69,6 +72,6 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 @import url('./assets/css/reset.css');
 </style>

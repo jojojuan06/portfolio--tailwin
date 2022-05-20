@@ -1,5 +1,5 @@
 <template>
-<div style="height: 100vh;" class=" flex justify-center items-center flex-col bg-white bg-cover">
+<div style="height: 100vh;" class=" flex justify-center items-center flex-col bg-cover">
     <div class="font-bold text-4xl mb-32">
         <span>Port</span> 
         <span class="text-[#EEAB61]">folio</span>
@@ -21,7 +21,7 @@
         </div>
         
         <div class="mr-8  hidden md:flex md:order-1">
-            <img style="max-width:300px;" src="../assets/images/profil--img.png" alt="image de profil">
+            <img style="max-width:400px;" src="../assets/images/profil--img.png" alt="image de profil">
         </div>
         <div class=" flex flex-col md:flex-row justify-center items-center ml-4">
             <ul class="flex md:inline m-4">
