@@ -1,3 +1,7 @@
+.bodyChange nav li:hover {
+    background-color: #d6d6d6;
+}
+
 .bodyChange {
 background-color: black;
 }
@@ -109,5 +113,17 @@ ul:after{
     content: "";
     background-color: white!important;
 }
+/* ----------------- */
+
+
+/* project.vue*/
+
+.bodyChange .card--night div>h2 {
+    color: black;
+}
+.bodyChange .card--night div>p {
+    color: grey;
+}
+
 /* ----------------- */
 

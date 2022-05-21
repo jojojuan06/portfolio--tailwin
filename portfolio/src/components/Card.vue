@@ -17,7 +17,7 @@
         <!-- Heading -->
         <h2 class="font-bold" style="font-size:16px;">{{cardData.name}}</h2>
         <!-- Description -->
-        <p class="overflow-auto text-sm text-gray-600">
+        <p class="font-bold overflow-auto text-sm text-[grey]">
           {{cardData.descriptions}}
         </p>
         <p>
