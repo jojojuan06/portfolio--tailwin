@@ -159,3 +159,15 @@ color: black;
 }
 /* ----------- */
 
+/* footer */
+.bodyChange footer {
+    background-color: white;
+    transition:all 0.5s;
+}
+.bodyChange footer h2 ,
+.bodyChange footer strong
+{
+    color: black;
+}
+/* ---------- */
+

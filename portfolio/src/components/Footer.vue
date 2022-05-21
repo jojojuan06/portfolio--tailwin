@@ -11,7 +11,7 @@
                     </a>
                 </div>
                 <div class="pb-3 text-center">
-                    {{ new Date().getFullYear() }} — <strong>Portfolio</strong>
+                    <strong>{{ new Date().getFullYear() }} — Portfolio</strong>
                 </div>
             </div>
     </footer>
