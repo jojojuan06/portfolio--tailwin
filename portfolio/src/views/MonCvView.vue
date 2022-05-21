@@ -6,7 +6,7 @@
         <CvList/>
         <div class="flex  md:ml-24 mb-4 md:mb-0">
             <ul class="moncv--night flex flex-col justify-center  items-center md:p-4">
-            <h3 class="font-bold text-center">Réference Outils :</h3>
+            <h3 class="reference--title font-bold text-center">Réference Outils :</h3>
                 <li>
                 <font-awesome-icon :icon="['fab', 'js']" class="text-[yellow] bg-black mr-2"/>
                 JavaScript

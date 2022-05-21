@@ -25,6 +25,21 @@ color: black;
 }
 
 /* moncv.vue animation change night mode*/
+.bodyChange h3.reference--title {
+    color: white;
+}
+.bodyChange .--blue {
+    color: white!important;
+    border: solid white 1px!important;
+    border-radius:16px;
+}
+.bodyChange .--transparent {
+    color: transparent;
+    border: solid white 1px!important;
+    background-color: transparent!important;
+    border-radius:16px;
+}
+
 .bodyChange .border--img:before,
 .bodyChange .border--img:after
 {
