@@ -10,7 +10,7 @@
             </div>
             <div class="flex justify-center items-center">
                 <!-- l'évènement `submit` ne rechargera plus la page -->
-                <form ref="form"  @submit.prevent="sendEmail" class="w-[250px]">
+                <form ref="form"  @submit.prevent="sendEmail" class="--contact w-[250px]">
                     <label class="block mb-6">
                         <span class="text-black font-bold">Votre nom</span>
                         <input  type="text" name="name" class="py-3 text-center placeholder-[black] block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Joe Bloggs"/>

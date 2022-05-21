@@ -148,6 +148,9 @@ color: black;
 /* ------------------ */
 
 /* contactView */
+.bodyChange .--contact span {
+    color: white;
+}
 
 .bodyChange .btn--night input {
     color: white;
