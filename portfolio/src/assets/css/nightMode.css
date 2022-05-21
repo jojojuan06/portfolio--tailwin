@@ -132,3 +132,15 @@ color: black;
 
 /* ------------------ */
 
+/* contactView */
+
+.bodyChange .btn--night input {
+    color: white;
+    border: solid 2px white;
+}
+.bodyChange .btn--night input:hover {
+    color: black;
+    border: solid 2px white;
+}
+/* ----------- */
+
