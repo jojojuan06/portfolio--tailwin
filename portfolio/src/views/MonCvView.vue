@@ -1,11 +1,11 @@
 <template>
-    <div  class="md:h-screen flex flex-col relative justify-start border--img">
+    <div  class=" md:h-screen flex flex-col relative justify-start border--img">
         <div class="flex justify-center items-center" >
             <img src="../assets/images/img--cv.png" class="cv--img w-[8rem]" alt="">
         </div>
         <CvList/>
         <div class="flex  md:ml-24 mb-4 md:mb-0">
-            <ul class=" flex flex-col justify-center  items-center md:p-4">
+            <ul class="moncv--night flex flex-col justify-center  items-center md:p-4">
             <h3 class="font-bold text-center">Réference Outils</h3>
                 <li><font-awesome-icon :icon="['fab', 'js']" class="text-[yellow] bg-black mr-2"/>JavaScript
                 <font-awesome-icon :icon="['fas', 'circle']" class="text-[#3e869d] mr-2"/>
