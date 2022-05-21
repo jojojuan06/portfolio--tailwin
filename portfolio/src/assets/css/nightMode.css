@@ -102,3 +102,12 @@ ul:after{
 }
 /* --------------- */
 
+/* contact.vue */
+
+.bodyChange .border--left:after,
+.bodyChange .border--bottom:before {
+    content: "";
+    background-color: white!important;
+}
+/* ----------------- */
+

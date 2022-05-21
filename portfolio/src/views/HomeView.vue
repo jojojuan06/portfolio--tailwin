@@ -54,8 +54,8 @@ li {
         width: 4px;
         height: 100px;
         left: 13px;
-        bottom: 140px;
-        animation: top-border ease-in-out .9s forwards;
+        top:-105px;
+        animation: top-border  .9s forwards;
     }
     ul:before {
         content:"";
@@ -64,7 +64,7 @@ li {
         width: 4px;
         left: 13px;
         top: 140px;
-        animation: bottom-border ease-in-out .9s forwards;
+        animation: bottom-border  .9s forwards;
     }
 }
     
