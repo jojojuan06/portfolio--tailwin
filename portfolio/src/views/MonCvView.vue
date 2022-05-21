@@ -43,7 +43,7 @@ export default {
     .border--img:before {
         content:"";
         position: absolute;
-        background: black;
+        background:black;
         height: 2px;
         left: 160px;
         top: 85px;
