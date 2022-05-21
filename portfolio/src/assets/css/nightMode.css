@@ -127,3 +127,18 @@ ul:after{
 
 /* ----------------- */
 
+
+/* homeview.vue */
+
+
+.bodyChange .home--night span:first-child {
+    color:white;
+}
+
+.bodyChange .home--night ul:before,
+.bodyChange .home--night ul:after {
+    background-color: white;
+}
+
+/* ------------------ */
+

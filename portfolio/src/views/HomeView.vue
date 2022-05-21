@@ -1,5 +1,5 @@
 <template>
-<div style="height: 100vh;" class=" flex justify-center items-center flex-col bg-cover">
+<div style="height: 100vh;" class="home--night flex justify-center items-center flex-col bg-cover">
     <div class="font-bold text-4xl mb-32">
         <span>Port</span> 
         <span class="text-[#EEAB61]">folio</span>
@@ -19,7 +19,6 @@
                 <router-link to="/contact" class="duration-700  border-solid border-2 border-black hover:scale-[1.05] mt-4 font-bold text-black hover:bg-[#ED69BD] px-3 py-1 rounded-2xl">Contacter Moi</router-link>
             </div>
         </div>
-        
         <div class="mr-8  hidden md:flex md:order-1">
             <img style="max-width:400px;" src="../assets/images/profil--img.png" alt="image de profil">
         </div>
@@ -50,7 +49,7 @@ li {
     ul:after {
         content:"";
         position: absolute;
-        background: black;
+        background-color: black;
         width: 4px;
         height: 100px;
         left: 13px;
@@ -60,7 +59,7 @@ li {
     ul:before {
         content:"";
         position: absolute;
-        background: black;
+        background-color: black;
         width: 4px;
         left: 13px;
         top: 140px;
