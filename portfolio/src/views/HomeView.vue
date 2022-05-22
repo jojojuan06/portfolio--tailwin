@@ -16,7 +16,7 @@
                 </p>  
             </div>
             <div class="flex justify-center items-center home--btn">
-                <router-link to="/contact" class="duration-700  border-solid border-2 border-black hover:scale-[1.05] mt-4 font-bold text-black hover:bg-[#ED69BD] px-3 py-1 rounded-2xl">Contacter Moi</router-link>
+                <router-link to="/contact" class="home--link transition-all duration-700 bg-btnGradientTransparent hover:bg-btnGradient border-solid border-2 hover:scale-[1.06]  border-black  mt-4 font-bold text-black  px-3 py-1 rounded-2xl">Contacter Moi</router-link>
             </div>
         </div>
         <div class="mr-auto  hidden md:flex md:justify-center md:items-center md:order-1 md:max-w-[400px]">
