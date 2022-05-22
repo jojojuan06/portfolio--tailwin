@@ -9,7 +9,16 @@ module.exports = {
         backgroundImage: {
           btnGradient:'linear-gradient(90deg, rgba(238,171,97,1) 0%, rgba(238,171,97,1) 28%, rgba(237,105,189,1) 100%)',
           btnGradientTransparent:'linear-gradient(90deg, rgba(238,171,97,0) 0%, rgba(238,171,97,0) 28%, rgba(237,105,189,0) 100%)',
-        }  
+        },
+        keyframes: {
+          fade: {
+            '0%': { 'background-image': 'linear-gradient(90deg, rgba(238,171,97,0) 0%, rgba(238,171,97,0) 28%, rgba(237,105,189,0) 100%)' },
+            '100%': { 'background-image': 'linear-gradient(90deg, rgba(238,171,97,1) 0%, rgba(238,171,97,1) 28%, rgba(237,105,189,1) 100%)' },
+          },
+        }, 
+        animation: {
+          'fade': 'fade 0.7s ease forwards',
+        },  
     },
   },
   plugins: [],
