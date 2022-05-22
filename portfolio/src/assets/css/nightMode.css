@@ -3,7 +3,7 @@
 }
 
 .bodyChange {
-background-color: black;
+background-color: #202124;
 }
 .bodyChange nav {
 background-color: white;
@@ -136,7 +136,14 @@ color: black;
 
 
 /* homeview.vue */
-
+.bodyChange .home--btn a {
+    border: white solid 2px;
+    color: white;
+}
+.bodyChange .home--btn a:hover {
+    animation-duration: 500ms;
+    background: linear-gradient(90deg, rgba(238,171,97,1) 0%, rgba(238,171,97,1) 28%, rgba(237,105,189,1) 100%);
+}
 
 .bodyChange .home--night span:first-child {
     color:white;

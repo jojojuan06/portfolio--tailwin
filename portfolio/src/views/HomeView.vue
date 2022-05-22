@@ -15,7 +15,7 @@
                 printer took a galley of type and scrambled it to make a type specimen book.<strong class="text-[#EEAB61]">Web Designer </strong>! 
                 </p>  
             </div>
-            <div class="flex justify-center items-center">
+            <div class="flex justify-center items-center home--btn">
                 <router-link to="/contact" class="duration-700  border-solid border-2 border-black hover:scale-[1.05] mt-4 font-bold text-black hover:bg-[#ED69BD] px-3 py-1 rounded-2xl">Contacter Moi</router-link>
             </div>
         </div>

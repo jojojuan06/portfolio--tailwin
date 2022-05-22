@@ -36,7 +36,7 @@
                             text-black
                             border-solid border-2 border-black
                             focus:shadow-outline
-                            hover:bg-[#ED69BD]
+                            hover:bg-btnGradient
                             hover:scale-[1.05]
                         "
                         value="Contactez-moi"
