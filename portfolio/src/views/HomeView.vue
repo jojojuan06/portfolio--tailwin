@@ -19,8 +19,8 @@
                 <router-link to="/contact" class="duration-700  border-solid border-2 border-black hover:scale-[1.05] mt-4 font-bold text-black hover:bg-[#ED69BD] px-3 py-1 rounded-2xl">Contacter Moi</router-link>
             </div>
         </div>
-        <div class="mr-8  hidden md:flex md:order-1">
-            <img style="max-width:400px;" src="../assets/images/profil--img.png" alt="image de profil">
+        <div class="mr-auto  hidden md:flex md:justify-center md:items-center md:order-1 md:max-w-[400px]">
+            <img  src="../assets/images/profil--img.png" alt="image de profil">
         </div>
         <div class=" flex flex-col md:flex-row justify-center items-center ml-4">
             <ul class="flex md:inline m-4">
@@ -76,4 +76,10 @@ li {
     0% { height: 0px; }
     100% { height: 100px; }
 }
+@media screen and (max-width:935px) {
+    img  {
+        width: 70%;
+        padding-top: 2rem;
+    }
+} 
 </style>
