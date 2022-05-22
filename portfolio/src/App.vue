@@ -1,15 +1,15 @@
 <template>
   <header>
     <div>
-      <nav class=" bg-cyan-600 shadow md:flex md:items-center md:justify-between">
+      <nav class=" bg-cyan-600 text-center md:flex-wrap shadow md:flex md:items-center md:justify-between">
         <div>
-          <span class="cursor-pointer">
+           <router-link to="/" class="cursor-pointer">
             <img
               class="h-10 inline ml-4 mr-4"
               src="./assets/images/logoJojo.png"
               alt="mon logo"
             />
-          </span>
+          </router-link>
         </div>
         <ul
           class="md:flex md:items-center"
