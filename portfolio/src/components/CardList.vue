@@ -36,14 +36,16 @@ components: {
                     name: 'Dynamisez une page web avec des animations CSS' ,
                     image: '/src/assets/images/project03.png',
                     descriptions: 'créer des animations css modernes,utilisation de Git/Github,utiliser sass',
-                    duration: '70 heures'
+                    duration: '70 heures',
+                    link: 'https://jojojuan06.github.io/JonathanMorin_3_10012022/'
                 },
                 {
                     projectnumber:"04",
                     name: 'Optimisez un site web existant' ,
                     image: '/src/assets/images/project04.png',
                     descriptions: 'Amélioration du SEO, de la vitesse de chargement du site, de l’accessibilité',
-                    duration: '30 heures'
+                    duration: '30 heures',
+                    link: 'https://jojojuan06.github.io/MorinJonathan_4_28012022/'
                 },
                 {
                     projectnumber:"05",
