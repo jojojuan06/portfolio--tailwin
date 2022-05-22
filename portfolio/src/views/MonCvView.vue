@@ -4,7 +4,7 @@
             <img src="../assets/images/img--cv.png" class="cv--img w-[8rem]" alt="">
         </div>
         <CvList/>
-        <div class="flex  md:ml-24 mb-4 md:mb-0">
+        <div class="flex   justify-center mb-4 md:mb-0">
             <ul class="moncv--night flex flex-col justify-center  items-center md:p-4">
             <h3 class="reference--title font-bold text-center">Réference Outils :</h3>
                 <li>

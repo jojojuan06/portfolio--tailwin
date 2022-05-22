@@ -28,8 +28,8 @@
         </div>
       </div>
       <div class="flex items-center justify-center">
-        <a role="button" target="blank" :href="cardData.link" class="text-white bg-sky-500 px-3 py-1 rounded-md hover:bg-purple-700">
-        Learn More
+        <a role="button" target="blank" :href="cardData.link" class="text-white  font-semibold bg-sky-500 px-3 py-1 rounded-md hover:bg-[#ED69BD]">
+        Plus d'info
         </a>
       </div>
     </div>

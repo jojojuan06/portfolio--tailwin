@@ -125,8 +125,11 @@ color: black;
 .bodyChange .card--night div>h2 {
     color: black;
 }
-.bodyChange .card--night div>p {
+.bodyChange .card--night p {
     color: grey;
+}
+.bodyChange .card--night p:last-child {
+    color: black;
 }
 .bodyChange .card--shadow:hover {
     box-shadow: 5px 5px 15px 5px rgba(255, 255, 255, 0.5);

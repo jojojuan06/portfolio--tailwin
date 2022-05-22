@@ -1,8 +1,8 @@
 <template>
   <header>
     <div>
-      <nav class=" bg-cyan-600 text-center md:flex-wrap shadow md:flex md:items-center md:justify-between">
-        <div>
+      <nav class="last:pb-2 md:last:pb-0 bg-cyan-600 text-center md:flex-wrap shadow md:flex md:items-center md:justify-between">
+        <div class="mb-2 md:mb-0">
            <router-link to="/" class="cursor-pointer">
             <img
               class="h-10 inline ml-4 mr-4"
@@ -16,7 +16,7 @@
           v-for="(item, index) in itemMenus"
           :key="index"
         >
-          <li class="p-6 hover:bg-[#ED69BD]">
+          <li class="p-6 hover:bg-[#ED69BD] md:rounded-none rounded-[16px] mx-4">
             <RouterLink
               :to="item.path"
               class="text-xl text-white target:shadow-lg"
@@ -27,7 +27,7 @@
       </nav>
     </div>
     </header>
-    <div class="flex justify-end items-center mr-8 pt-4">
+    <div class="flex justify-end items-center mr-8 pt-4 pb-4 md:pb-0">
       <button @click="toggleMode" class="themeLogo">
         <span  v-if="mode" style="border-radius:50%; padding: 10px 14px 10px 14px;" class="font-bold  bg-black text-white">
           <font-awesome-icon :icon="['fas', 'sun']"/></span> 

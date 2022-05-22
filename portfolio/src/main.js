@@ -17,7 +17,11 @@ import { faFile,faCube ,faFileLines,faCircle,faSun,faMoon} from '@fortawesome/fr
 library.add(faTwitter, faYoutube, faInstagram, faLinkedin, faDiscord, faJs,faHtml5,faVuejs, faFile, faCube,faFileLines, faCircle, faSun, faMoon)
 
 const app = createApp(App)
-//app.config.productionTip = false
+//change langue html default
+const html = document.documentElement
+html.setAttribute('lang', 'fr')
+
+//app use
 app.component('font-awesome-icon',FontAwesomeIcon)
 app.use(router)
 app.mount('#app')
