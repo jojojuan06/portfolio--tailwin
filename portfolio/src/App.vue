@@ -3,7 +3,7 @@
     <div>
       <nav class="last:pb-2 md:last:pb-0 bg-cyan-600 text-center md:flex-wrap shadow md:flex md:items-center md:justify-between">
         <div class="mb-2 md:mb-0">
-           <router-link to="/" class="cursor-pointer">
+              <router-link to="/" class="cursor-pointer">
             <img
               class="h-10 inline ml-4 mr-4"
               src="./assets/images/logoJojo.png"
@@ -90,9 +90,8 @@ export default {
       }
     },
     scrollUp() {
-      window.scroll({
+      window.scrollTo({
         top:0,
-        left:0,
         //remonter doux
         behavior: 'smooth' 
       })
