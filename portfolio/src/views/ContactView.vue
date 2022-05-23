@@ -21,8 +21,7 @@
                     </label>
                     <label class="block mb-6">
                         <span class="text-black font-bold">Message</span>
-                        <textarea  name="message" class="pt-6 text-center placeholder-[black] h-20 block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"  placeholder="Tapez votre text ici...">
-                        </textarea>
+                        <textarea  name="message" class="pt-6 text-center placeholder-[black] h-20 block w-full mt-1 bg-gray-300  shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"  placeholder="Tapez votre text ici..."></textarea>
                     </label>
                     <div class="mb-6 relative btn--night">
                         <input

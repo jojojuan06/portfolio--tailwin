@@ -16,7 +16,7 @@
           v-for="(item, index) in itemMenus"
           :key="index"
         >
-          <li class="p-6 hover:bg-[#ED69BD] md:rounded-none rounded-[16px] mx-4">
+          <li class="p-6 cursor-pointer hover:bg-[#ED69BD] duration-500 md:rounded-none rounded-[16px] mx-4">
             <RouterLink
               :to="item.path"
               class="text-xl text-white target:shadow-lg"
@@ -37,6 +37,9 @@
     </div>
   <main>
     <RouterView />
+    <div class="flex justify-end pb-4" @click="scrollUp">
+      <font-awesome-icon :icon="['fas', 'arrow-up']" class="scrollUp duration-500 border-2 hover:scale-75 bg-[#3E869D] border-black mr-4 ml-6 w-4 p-2 rounded-full"/>
+    </div>
   </main>
     <Footer/>
 </template>
@@ -76,7 +79,7 @@ export default {
     }
   },
   methods:{
-      toggleMode(){
+    toggleMode(){
         this.mode = !this.mode
         const body = document.querySelector('body')
       if (this.mode == false) {
@@ -85,6 +88,14 @@ export default {
       else {
           body.classList.remove('bodyChange');
       }
+    },
+    scrollUp() {
+      window.scroll({
+        top:0,
+        left:0,
+        //remonter doux
+        behavior: 'smooth' 
+      })
     }
   }
 };

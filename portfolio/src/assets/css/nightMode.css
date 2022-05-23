@@ -187,3 +187,10 @@ color: black;
 }
 /* ---------- */
 
+/* app.vue */
+.bodyChange .scrollUp {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+/* --------- */
