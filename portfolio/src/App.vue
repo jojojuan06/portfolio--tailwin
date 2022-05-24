@@ -38,7 +38,7 @@
   <main>
     <RouterView />
     <div class="flex justify-end pb-4" @click="scrollUp">
-      <font-awesome-icon :icon="['fas', 'arrow-up']" class="scrollUp duration-500 border-2 hover:scale-75 bg-[#3E869D] border-black mr-4 ml-6 w-4 p-2 rounded-full"/>
+      <font-awesome-icon :icon="['fas', 'arrow-up']" class="hover:cursor-pointer scrollUp duration-500 border-2 hover:scale-75 bg-[#3E869D] border-black mr-4 ml-6 w-4 p-2 rounded-full"/>
     </div>
   </main>
     <Footer/>
