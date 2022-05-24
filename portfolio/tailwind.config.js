@@ -18,7 +18,10 @@ module.exports = {
         }, 
         animation: {
           'fade': 'fade 0.7s ease forwards',
-        },  
+        }, 
+        fontFamily: {
+        nav:['Montserrat'],  
+        } 
     },
   },
   plugins: [],
