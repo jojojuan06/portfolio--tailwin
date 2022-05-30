@@ -5,8 +5,8 @@
         </div>
         <CvList/>
         <div class="flex flex-col  md:flex-row md:justify-around mb-4 md:mb-0">
-            <div class="flex items-center justify-center">
-                <ul class="px-4 pb-8 md:p-4 flex flex-col">
+            <div class="flex items-center justify-center order-2 md:order-none">
+                <ul class="px-4 pt-8 md:p-4 flex flex-col">
                     <li class="hover:cursor-pointer hover:underline hover:underline-offset-4"><font-awesome-icon :icon="['fas', 'house']" class="text-[#3E869D] --contact pr-2"/> 19 avenue louis gallet</li>
                     <li class="hover:cursor-pointer hover:underline hover:underline-offset-4"><font-awesome-icon :icon="['fas', 'phone']" class="text-[#3E869D] --contact pr-2"/> 06-00-00-00-00</li>
                     <li class="hover:cursor-pointer hover:underline hover:underline-offset-4"><font-awesome-icon :icon="['fas', 'at']" class="text-[#3E869D] --contact pr-2"/> jonh_06@live.fr</li>
