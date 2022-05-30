@@ -4,7 +4,7 @@
             <img src="../assets/images/img--cv.png" class="duration-500 cv--img w-[8rem] border-solid border-[1px] border-black rounded-full" alt="">
         </div>
         <CvList/>
-        <div class="flex flex-col  md:flex-row md:justify-around mb-4 md:mb-0">
+        <div class="flex flex-col md:ml-32 md:mr-28 md:flex-row md:justify-between mb-4 md:mb-0">
             <div class="flex items-center justify-center order-2 md:order-none">
                 <ul class="px-4 pt-8 md:p-4 flex flex-col list--contact">
                     <h3 class="reference--title font-bold text-center">Contacts</h3>
