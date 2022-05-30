@@ -42,6 +42,9 @@ color: black;
 .bodyChange .--contact {
     color: white!important;
 }
+.bodyChange ul.list--contact li:hover {
+    text-decoration: underline white;
+}
 
 .bodyChange .border--img:before,
 .bodyChange .border--img:after
