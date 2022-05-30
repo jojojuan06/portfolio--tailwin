@@ -27,7 +27,7 @@
       </nav>
     </div>
     </header>
-    <div class="flex justify-end items-center mr-8 pt-4 pb-4 md:pb-0">
+    <div class="flex justify-end items-center mr-8 pt-8 pb-4 md:pb-0">
       <button @click="toggleMode" class="themeLogo">
         <span  v-if="mode" style="border-radius:50%; padding: 10px 14px 10px 14px;" class="font-bold  bg-black text-white">
           <font-awesome-icon :icon="['fas', 'sun']"/></span> 

@@ -1,5 +1,5 @@
 <template>
-    <div  class=" md:h-screen flex flex-col relative justify-start border--img">
+    <div  class=" md:h-screen flex flex-col relative justify-center border--img">
         <div class="flex justify-center items-center" >
             <img src="../assets/images/img--cv.png" class="duration-500 cv--img w-[8rem] border-solid border-[1px] border-black rounded-full" alt="">
         </div>
@@ -87,7 +87,7 @@ export default {
         background:black;
         height: 2px;
         left: 160px;
-        top: 85px;
+        top: 238px;
         animation: img-border ease-in-out .9s forwards; 
     }
     .border--img:after {
@@ -96,7 +96,7 @@ export default {
         background: black;
         height: 2px;
         right: 160px;
-        top: 85px;
+        top: 238px;
         animation: img-border ease-in-out .9s forwards; 
     }
     @keyframes img-border {
