@@ -9,10 +9,10 @@
             <div style="max-width:400px;" class="flex flex-col justify-center items-center">
                 <h2 class="font-bold">Bonjour !</h2>
                 <br>
-                <p class="font-bold">Je m’apelle Jonathan Morin</p>
+                <p class="font-bold">Je m’apelle Jonh</p>
                 <br>
-                <p class="font-bold w-2/4 text-center">een the industry's standard dummy text ever since the 1500s,when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book.<strong class="text-[#EEAB61]">Web Designer </strong>! 
+                <p class="font-bold w-2/4 text-center">J'habite <font-awesome-icon :icon="['fas', 'location-dot']" class=""/> Juans les pins
+                Je vous présente mon portfolio  qui est représentatif de mes qualitées et mon experience en tant que <strong class="text-[#EEAB61]">Web Designer </strong>! 
                 </p>  
             </div>
             <div class="flex justify-center items-center home--btn">

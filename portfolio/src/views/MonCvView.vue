@@ -4,9 +4,17 @@
             <img src="../assets/images/img--cv.png" class="cv--img w-[8rem]" alt="">
         </div>
         <CvList/>
-        <div class="flex   justify-center mb-4 md:mb-0">
-            <ul class="moncv--night flex flex-col justify-center  items-center md:p-4">
-            <h3 class="reference--title font-bold text-center">Réference Outils :</h3>
+        <div class="flex flex-col  md:flex-row md:justify-around mb-4 md:mb-0">
+            <div class="flex items-center justify-center">
+                <ul class="px-4 pb-8 md:p-4 flex flex-col">
+                    <li class="hover:cursor-pointer hover:underline hover:underline-offset-4"><font-awesome-icon :icon="['fas', 'house']" class="text-[#3E869D] --contact pr-2"/> 19 avenue louis gallet</li>
+                    <li class="hover:cursor-pointer hover:underline hover:underline-offset-4"><font-awesome-icon :icon="['fas', 'phone']" class="text-[#3E869D] --contact pr-2"/> 06-00-00-00-00</li>
+                    <li class="hover:cursor-pointer hover:underline hover:underline-offset-4"><font-awesome-icon :icon="['fas', 'at']" class="text-[#3E869D] --contact pr-2"/> jonh_06@live.fr</li>
+                </ul> 
+            </div>
+            <div>
+                <ul class="moncv--night flex flex-col justify-center  items-center md:p-4">
+                <h3 class="reference--title font-bold text-center">Réference Outils :</h3>
                 <li>
                 <font-awesome-icon :icon="['fab', 'js']" class="text-[yellow] bg-black mr-2"/>
                 JavaScript
@@ -51,6 +59,8 @@
                 <font-awesome-icon :icon="['fas', 'circle']" class="--transparent mr-2"/>
                 </li>
             </ul>
+            </div>
+            
         </div>
     </div>
 </template>
@@ -93,7 +103,7 @@ export default {
     position: relative;
     text-decoration: none;
 }
-ul:before{
+ul.moncv--night:before{
     content: '';
     position: absolute;
     top: -2px;
@@ -104,7 +114,7 @@ ul:before{
     border: 2px solid transparent;
 }
 
-ul:hover:before {
+ul.moncv--night:hover:before {
     animation: border--before 1.5s linear forwards
 }
 
@@ -136,7 +146,7 @@ ul:hover:before {
     
     }
 
-    ul:after{
+    ul.moncv--night:after{
         content: '';
         position: absolute;
         top: -2px;
@@ -147,7 +157,7 @@ ul:hover:before {
         border: 2px solid transparent;
     }
 
-    ul:hover:after {
+    ul.moncv--night:hover:after {
         animation: border--after 1.5s linear forwards
     }
 

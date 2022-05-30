@@ -39,6 +39,9 @@ color: black;
     background-color: transparent!important;
     border-radius:16px;
 }
+.bodyChange .--contact {
+    color: white!important;
+}
 
 .bodyChange .border--img:before,
 .bodyChange .border--img:after
