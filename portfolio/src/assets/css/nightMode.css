@@ -26,6 +26,9 @@ color: black;
 }
 
 /* moncv.vue animation change night mode*/
+div.container--list:after {
+    border-right: 2px dashed white!important;
+}
 .bodyChange h3.reference--title {
     color: white;
 }
