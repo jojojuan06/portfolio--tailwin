@@ -3,7 +3,7 @@
     <div class="card--night bg-cover flex justify-center items-center">
       <CardList/>
     </div>
- </template>
+</template>
 
 <script>
 import CardList from '../components/CardList.vue'

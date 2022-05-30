@@ -17,7 +17,7 @@ name: "CvList",
         return {
             listCv: [
                 {
-                    title:"profil",
+                    title:"Profil",
                     descriptions: 'Sérieux , Organiser ,d\'un bon relationnel je serais mettre a disposition mon experience afin de realiser diverse projet seul ou en equipe',
                 },
                 {
@@ -26,7 +26,7 @@ name: "CvList",
                 },
                 {
                     title:"Compétence",
-                    descriptions: 'Réalisez un site vitrine depuis une maquette et charte Graphiqe.Réalisez des animation css.Realisez un back-end avec mongoose(nosql) ou sequelize (sql).Utilisation d\'un frameworl Vue js en front-end',
+                    descriptions: 'Réalisez un site vitrine depuis une maquette et charte Graphiqe.Réalisez des animation css.Realisez un back-end avec mongoose(nosql) ou sequelize (sql).Utilisation d\'un framework Vue js en front-end',
                 },
             ]
         }
