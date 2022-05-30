@@ -22,6 +22,7 @@ color: black;
 .bodyChange .cv--img {
     background-color: white;
     border-radius: 50%;
+    border: white solid 1px!important;
 }
 
 /* moncv.vue animation change night mode*/
@@ -42,6 +43,9 @@ color: black;
 .bodyChange .--contact {
     color: black!important;
     background-color: white;
+}
+.bodyChange .--mail {
+    color: white!important;
 }
 .bodyChange ul.list--contact li:hover {
     text-decoration: underline white;

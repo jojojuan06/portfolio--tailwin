@@ -1,7 +1,7 @@
 <template>
     <div  class=" md:h-screen flex flex-col relative justify-start border--img">
         <div class="flex justify-center items-center" >
-            <img src="../assets/images/img--cv.png" class="cv--img w-[8rem]" alt="">
+            <img src="../assets/images/img--cv.png" class="duration-500 cv--img w-[8rem] border-solid border-[1px] border-black rounded-full" alt="">
         </div>
         <CvList/>
         <div class="flex flex-col  md:flex-row md:justify-around mb-4 md:mb-0">
@@ -15,7 +15,7 @@
                     <span class="ml-2">06-00-00-00-00</span> 
                     </li>
                     <li class="flex decoration-2 duration-500 underline decoration-transparent hover:cursor-pointer hover:decoration-black hover:underline underline-offset-4"><font-awesome-icon :icon="['fas', 'at']" class="text-white --contact p-2 bg-black rounded-full"/>
-                     <span class="ml-2">jonh_06@live.fr</span> 
+                     <a href="mailto:jonh_06@live.fr"><span class="--mail ml-2">jonh_06@live.fr</span> </a>
                      </li>
                 </ul> 
             </div>
