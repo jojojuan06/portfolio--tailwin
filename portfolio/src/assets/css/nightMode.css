@@ -40,7 +40,8 @@ color: black;
     border-radius:16px;
 }
 .bodyChange .--contact {
-    color: white!important;
+    color: black!important;
+    background-color: white;
 }
 .bodyChange ul.list--contact li:hover {
     text-decoration: underline white;
