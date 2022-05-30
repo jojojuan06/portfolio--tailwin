@@ -4,8 +4,8 @@
             <img src="../assets/images/img--cv.png" class="duration-500 cv--img w-[8rem] border-solid border-[1px] border-black rounded-full" alt="">
         </div>
         <CvList/>
-        <div class="flex flex-col md:ml-32 md:mr-28 md:flex-row md:justify-between mb-4 md:mb-0">
-            <div class="flex items-center justify-center order-2 md:order-none">
+        <div class=" flex flex-col md:ml-32 md:mr-28 md:flex-row md:justify-between mb-4 md:mb-0">
+            <div class="flex items-center justify-center order-2 md:order-none ">
                 <ul class="px-4 pt-8 md:p-4 flex flex-col list--contact">
                     <h3 class="reference--title font-bold text-center">Contacts</h3>
                     <li class="flex decoration-2 duration-500 underline decoration-transparent hover:decoration-black hover:cursor-pointer hover:underline underline-offset-4"><font-awesome-icon :icon="['fas', 'house']" class="text-white --contact p-2 bg-black rounded-full"/>
@@ -19,6 +19,7 @@
                      </li>
                 </ul> 
             </div>
+            <div class="md:flex hidden justify-center items-center relative container--list w-64"></div>
             <div>
                 <ul class="moncv--night flex flex-col justify-center  items-center md:p-4">
                 <h3 class="reference--title font-bold text-center">Réference Outils</h3>
@@ -80,11 +81,11 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (min-width:1450px) {
+@media screen and (min-width:1500px) {
     .border--img:before {
         content:"";
         position: absolute;
-        background:black;
+        background:rgba(0,0,0,0.5);
         height: 2px;
         left: 160px;
         top: 238px;
@@ -93,7 +94,7 @@ export default {
     .border--img:after {
         content:"";
         position: absolute;
-        background: black;
+        background: rgba(0,0,0,0.5);
         height: 2px;
         right: 160px;
         top: 238px;
@@ -206,4 +207,24 @@ ul.moncv--night:hover:before {
     border: solid black 1px;
     border-radius:16px;
 }
+
+@media screen and (min-width:768px) {
+    div.container--list:after {
+        content:"";
+        position: absolute;
+        border-right: 2px dashed rgba(0,0,0,0.6);
+        width: 2px;
+        animation: border--bottom 1s linear forwards
+    }
+}
+
+@keyframes border--bottom {
+        0%{
+            height: 0px;
+        }
+        100% {
+            height: 250px;
+    }
+}
+
 </style>
