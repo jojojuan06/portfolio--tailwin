@@ -7,22 +7,25 @@
         <div class=" flex flex-col md:ml-32 md:mr-28 md:flex-row md:justify-between mb-4 md:mb-0">
             <div class="flex items-center justify-center order-2 md:order-none ">
                 <ul class="px-4 pt-8 md:p-4 flex flex-col list--contact">
-                    <h3 class="reference--title font-bold text-center">Contacts</h3>
-                    <li class="flex decoration-2 duration-500 underline decoration-transparent hover:decoration-black hover:cursor-pointer hover:underline underline-offset-4"><font-awesome-icon :icon="['fas', 'house']" class="text-white --contact p-2 bg-black rounded-full"/>
-                    <span class="ml-2">19 avenue louis gallet</span> 
+                    <h3 class="reference--title font-bold text-center mb-4">Contacts</h3>
+                    <li class="flex decoration-2 duration-500 underline decoration-transparent hover:decoration-black hover:cursor-pointer hover:underline underline-offset-4"><font-awesome-icon :icon="['fas', 'house']" class="text-white li--contact p-2 bg-black rounded-full"/>
+                    <span class="ml-2 whitespace-nowrap">Antibes</span> 
                     </li>
-                    <li class="py-2 flex decoration-2 duration-500 underline decoration-transparent hover:cursor-pointer hover:decoration-black hover:underline underline-offset-4"><font-awesome-icon :icon="['fas', 'phone']" class="text-white --contact p-2 bg-black rounded-full"/> 
+                    <li class="mt-2 flex decoration-2 duration-500 underline decoration-transparent hover:cursor-pointer hover:decoration-black hover:underline underline-offset-4"><font-awesome-icon :icon="['fas', 'phone']" class="text-white li--contact p-2 bg-black rounded-full"/> 
                     <span class="ml-2">06-00-00-00-00</span> 
                     </li>
-                    <li class="flex decoration-2 duration-500 underline decoration-transparent hover:cursor-pointer hover:decoration-black hover:underline underline-offset-4"><font-awesome-icon :icon="['fas', 'at']" class="text-white --contact p-2 bg-black rounded-full"/>
+                    <li class="mt-2 flex decoration-2 duration-500 underline decoration-transparent hover:cursor-pointer hover:decoration-black hover:underline underline-offset-4"><font-awesome-icon :icon="['fas', 'at']" class="text-white li--contact p-2 bg-black rounded-full"/>
                      <a href="mailto:jonh_06@live.fr"><span class="--mail ml-2">jonh_06@live.fr</span> </a>
-                     </li>
+                    </li>
+                    <li class="mt-2 flex decoration-2 duration-500 underline decoration-transparent hover:cursor-pointer hover:decoration-black hover:underline underline-offset-4"><font-awesome-icon :icon="['fab', 'github']" class="text-white li--contact p-2 bg-black rounded-full"/>
+                     <a href="https://github.com/jojojuan06" target="_blank"><span class="--mail ml-2">jojojuan06</span> </a>
+                    </li>
                 </ul> 
             </div>
             <div class="md:flex hidden justify-center items-center relative container--list w-64"></div>
             <div>
                 <ul class="moncv--night flex flex-col justify-center  items-center md:p-4">
-                <h3 class="reference--title font-bold text-center">Réference Outils</h3>
+                <h3 class="reference--title font-bold text-center mb-4">Réference Outils</h3>
                 <li>
                 <font-awesome-icon :icon="['fab', 'js']" class="text-[yellow] bg-black mr-2"/>
                 JavaScript
@@ -223,8 +226,7 @@ ul.moncv--night:hover:before {
             height: 0px;
         }
         100% {
-            height: 250px;
+            height: 200px;
     }
 }
-
 </style>

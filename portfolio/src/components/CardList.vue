@@ -29,7 +29,8 @@ components: {
                     name: 'Transformez une maquette en site web avec HTML & CSS' ,
                     image: '/src/assets/images/project02.png',
                     descriptions: 'créer ce prototype en intégrant la maquette en HTML et CSS (utilisation de grid et flexbox)',
-                    duration: '90 heures'
+                    duration: '90 heures',
+                    link:'https://jojojuan06.github.io/P2_morinjonathan_code/'
                 },
                 {
                     projectnumber:"03",
@@ -66,7 +67,8 @@ components: {
                     name: 'Créez un réseau social d’entreprise' ,
                     image: '/src/assets/images/project07.png',
                     descriptions: 'En plus d\'un back end avec sequelize/mysql/wamp utiliser un framework-js front-end Vue-js et Vuetify et axios pour les requetes http',
-                    duration: '50 heures'
+                    duration: '50 heures',
+                    link:'https://629f9cd2eaec8a04206857e5--classy-mochi-95f0ad.netlify.app/'
                 },
             ]
         }
