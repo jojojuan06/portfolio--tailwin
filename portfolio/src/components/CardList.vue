@@ -22,7 +22,8 @@ components: {
                     name: 'Prenez en main votre formation de dévloppeur web',
                     image: '/src/assets/images/project01.png',
                     descriptions: 'Mettre en place un systeme de veille,Développez vos soft skills,Découvrez les métiers de développeur',
-                    duration: '20 heures'
+                    duration: '20 heures',
+                    link:'https://docs.google.com/presentation/d/1BeG7d45GTPg-toqZ4pwp6J1PYjSezym0Xtl4ctGSx8c/edit?usp=sharing'
                 },
                 {
                     projectnumber:"02",
@@ -53,14 +54,16 @@ components: {
                     name: 'Construisez un site e-commerce en JavaScript' ,
                     image: '/src/assets/images/project05.png',
                     descriptions: 'Communiquer avec une api en utilisant des methodes https comme fetch et interagissez avec le dom',
-                    duration: '90 heures'
+                    duration: '90 heures',
+                    link:'https://docs.google.com/presentation/d/14Mu6S6YP2FFUiHrrLEhUmEJynQuAmJaxMr0x8rciet0/edit#slide=id.ge7b5133482_0_0'
                 },
                 {
                     projectnumber:"06",
                     name: 'Construisez une API sécurisée pour une application d\'avis gastronomiques' ,
                     image: '/src/assets/images/project06.png',
                     descriptions: 'Utilisations de node.js pour le back-end , Utilisation d\'une base de donnée nosql (MongoDb),crée une Api rest (CRUD)',
-                    duration: '50 heures'
+                    duration: '50 heures',
+                    link:'https://docs.google.com/presentation/d/1lxK69WqPIH0NQWJVFobVImQpEjJAiKjf94UW4XU4jqY/edit?usp=sharing'
                 },
                 {
                     projectnumber:"07",
