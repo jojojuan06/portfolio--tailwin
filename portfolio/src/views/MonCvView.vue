@@ -1,11 +1,11 @@
 <template>
     <div  class=" md:h-screen flex flex-col relative justify-center border--img">
         <div class="flex justify-center items-center" >
-            <img src="../assets/images/img--cv.png" class="duration-500 cv--img w-[8rem] border-solid border-[1px] border-black rounded-full" alt="">
+            <img src="../assets/images/img--cv.png" class="shadow-moncvimg hover:cursor-pointer hover:scale-105 hover:opacity-75 duration-500 cv--img w-[8rem] border-solid border-[1px] border-black rounded-full" alt="">
         </div>
         <CvList/>
         <div class=" flex flex-col md:ml-32 md:mr-28 md:flex-row md:justify-between mb-4 md:mb-0">
-            <div class="flex items-center justify-center order-2 md:order-none ">
+            <div class="flex items-start justify-center order-2 md:order-none ">
                 <ul class="px-4 pt-8 md:p-4 flex flex-col list--contact">
                     <h2 class="reference--title font-bold text-center mb-4 relative --contact">Contacts</h2>
                     <li class="flex decoration-2 duration-500 underline decoration-transparent hover:decoration-black hover:cursor-pointer hover:underline underline-offset-4"><font-awesome-icon :icon="['fas', 'house']" class="text-white li--contact p-2 bg-black rounded-full"/>
@@ -47,20 +47,20 @@
                         <font-awesome-icon :icon="['fas', 'cube']" class="text-[#3e869d] mr-2"/>
                         Sequelize
                         </li>
-                        <li class="ml-6 md:ml-0"><font-awesome-icon :icon="['fab', 'laravel']" class="text-[orange] mr-2"/>
+                        <li class="ml-6 md:ml-0"><font-awesome-icon :icon="['fab', 'laravel']" class="text-[#f05033] mr-2"/>
                         Laravel/PHP
                         </li>
                     </ul>
                     <ul class="flex flex-col justify-center  items-start pt-4 mr-12">
                         <h2>- Mes outils : </h2>
                         <li>
-                        <font-awesome-icon :icon="['fab', 'git-alt']" class="text-[orange] mr-2"/>
+                        <font-awesome-icon :icon="['fab', 'git-alt']" class="text-[#f05033] mr-2"/>
                         Git
                         </li>
-                        <li><font-awesome-icon :icon="['fas', 'file-lines']" class="text-[yellow] mr-2 bg-black"/>
+                        <li><font-awesome-icon :icon="['fab', 'jira']" class="text-[#0052cc] mr-2"/>
                         Jira
                         </li>
-                        <li><font-awesome-icon :icon="['fas', 'user-astronaut']" class="text-[orange] mr-2"/>
+                        <li><font-awesome-icon :icon="['fas', 'user-astronaut']" class="text-[#f05033] mr-2"/>
                         Postman
                         </li>
                     </ul>

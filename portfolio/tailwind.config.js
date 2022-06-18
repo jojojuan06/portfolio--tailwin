@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
         boxShadow:{
-          card:'5px 5px 15px 5px rgba(0,0,0,0.5)'
+          card:'5px 5px 15px 5px rgba(0,0,0,0.5)',
+          moncvimg:'5px 5px 15px 5px rgba(0,0,0,0.4)'
         },
         backgroundImage: {
           btnGradient:'linear-gradient(90deg, rgba(238,171,97,1) 0%, rgba(238,171,97,1) 28%, rgba(237,105,189,1) 100%)',
