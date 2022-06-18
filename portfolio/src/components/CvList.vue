@@ -18,15 +18,15 @@ name: "CvList",
             listCv: [
                 {
                     title:"Profil",
-                    descriptions: 'Sérieux , Organiser ,d\'un bon relationnel je serais mettre a disposition mon experience afin de realiser diverse projet seul ou en equipe',
+                    descriptions: 'Sérieux, Organisé, d\'un bon relationnel, je saurai mettre à disposition mon expérience afin de réaliser divers projets seul ou en équipe',
                 },
                 {
                     title:"Formation",
-                    descriptions: 'Formation a distance , Dévloppeur web Junior Openclassroom',
+                    descriptions: 'Formation à distance, Développeur web Junior Openclassrooms',
                 },
                 {
-                    title:"Compétence",
-                    descriptions: 'Réalisez un site vitrine depuis une maquette et charte Graphiqe.Réalisez des animation css.Realisez un back-end avec mongoose(nosql) ou sequelize (sql).Utilisation d\'un framework Vue js en front-end',
+                    title:"Compétences",
+                    descriptions: 'Réaliser un site vitrine depuis une maquette et une charte graphique. Réaliser des animations CSS. Réaliser un back-end avec MongoDB(NoSQL) ou Sequelize (SQL). Utilisation d\'un framework VueJS en front-end',
                 },
             ]
         }

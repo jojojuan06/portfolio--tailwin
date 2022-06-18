@@ -12,11 +12,11 @@
                 <p class="font-bold">Je m’apelle Jonh</p>
                 <br>
                 <p class="font-bold w-2/4 text-center">J'habite <font-awesome-icon :icon="['fas', 'location-dot']" class=""/> Juans les pins
-                Je vous présente mon portfolio  qui est représentatif de mes qualitées et mon experience en tant que <strong class="text-[#EEAB61]">Web Designer </strong>! 
+                Je vous présente mon portfolio  qui est représentatif de mes qualitées et mon experience en tant que <strong class="text-[#EEAB61]">Web Developer </strong>! 
                 </p>  
             </div>
             <div class="flex justify-center items-center home--btn">
-                <router-link to="/contact" class="home--link  duration-700 hover:animate-fade border-solid border-2 hover:scale-[1.06]  border-black  mt-4 font-bold text-black  px-3 py-1 rounded-2xl">Contacter Moi</router-link>
+                <router-link to="/contact" class="home--link  duration-700 hover:animate-fade border-solid border-2 hover:scale-[1.06]  border-black  mt-4 font-bold text-black  px-3 py-1 rounded-2xl">Contactez Moi</router-link>
             </div>
         </div>
         <div class="mr-auto  hidden md:flex md:justify-center md:items-center md:order-1 md:max-w-[400px]">

@@ -61,7 +61,7 @@ export default {
           icons: "mdi-home",
         },
         {
-          title: "Mes projects",
+          title: "Mes projets",
           path: "/myprojects",
           icons: "mdi-face",
         },

@@ -7,14 +7,14 @@ import "@mdi/font/css/materialdesignicons.css";
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
 /* import specific icons */
-import { faTwitter, faYoutube, faInstagram, faLinkedin, faDiscord , faJs, faHtml5,faVuejs, faGithub} from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faYoutube, faInstagram, faLinkedin, faDiscord , faJs, faHtml5,faVuejs, faGithub, faGitAlt,faLaravel,faNodeJs} from '@fortawesome/free-brands-svg-icons'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
-import { faFile,faCube ,faFileLines,faCircle,faSun,faMoon,faArrowUp,faLocationDot,faHouse,faPhone,faAt} from '@fortawesome/free-solid-svg-icons'
+import { faFile,faCube ,faFileLines,faCircle,faSun,faMoon,faArrowUp,faLocationDot,faHouse,faPhone,faAt,faUserAstronaut,faHandshakeAngle,faPeopleGroup,faAddressBook,faHandFist} from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
-library.add(faTwitter, faYoutube, faInstagram, faLinkedin, faDiscord, faJs,faHtml5,faVuejs, faFile, faCube,faFileLines, faCircle, faSun, faMoon,faArrowUp,faLocationDot,faHouse,faPhone,faAt,faGithub)
+library.add(faTwitter, faYoutube, faInstagram, faLinkedin, faDiscord, faJs,faHtml5,faVuejs, faFile, faCube,faFileLines, faCircle, faSun, faMoon,faArrowUp,faLocationDot,faHouse,faPhone,faAt,faGithub,faUserAstronaut,faGitAlt, faLaravel, faNodeJs, faHandshakeAngle, faPeopleGroup, faAddressBook,faHandFist)
 
 const app = createApp(App)
 //change langue html default
