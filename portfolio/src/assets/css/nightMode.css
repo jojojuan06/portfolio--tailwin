@@ -62,7 +62,7 @@ color: black;
     background-color: white!important;
 }
 
-.bodyChange ul.moncv--night:hover:before {
+.bodyChange .moncv--night:hover:before {
     animation: border--before 1.5s linear forwards !important;
 }
 
@@ -93,10 +93,13 @@ color: black;
     }
 }
 
-.bodyChange ul.moncv--night:hover:after {
+.bodyChange .moncv--night:hover:after {
     animation: border--after 1.5s linear forwards !important;
 }
 
+.bodyChange .moncv--icon {
+    color: white!important;
+}
 @keyframes border--after {
     0%{
         width: 0;

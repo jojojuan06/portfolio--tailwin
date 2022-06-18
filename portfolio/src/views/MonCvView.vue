@@ -73,18 +73,18 @@
                     <ul class="flex flex-col justify-center items-start">
                         <h3>- Mes principaux :</h3>
                         <li>
-                        <font-awesome-icon :icon="['fas', 'people-group']" class="text-black"/>
+                        <font-awesome-icon :icon="['fas', 'people-group']" class="moncv--icon text-black"/>
                         Travailler en équipe
                         </li>
                         <li>
-                        <font-awesome-icon :icon="['fas', 'handshake-angle']" class="text-black mr-2"/>
+                        <font-awesome-icon :icon="['fas', 'handshake-angle']" class="moncv--icon text-black mr-2"/>
                         Entraide
                         </li>
                         <li>
-                        <font-awesome-icon :icon="['fas', 'address-book']" class="text-black mr-2"/>
+                        <font-awesome-icon :icon="['fas', 'address-book']" class="moncv--icon text-black mr-2"/>
                         Réseau de contacts
                         </li>
-                        <li><font-awesome-icon :icon="['fas', 'hand-fist']" class="text-black mr-2"/>
+                        <li><font-awesome-icon :icon="['fas', 'hand-fist']" class="moncv--icon text-black mr-2"/>
                         Persévérance
                         </li>
                     </ul>
