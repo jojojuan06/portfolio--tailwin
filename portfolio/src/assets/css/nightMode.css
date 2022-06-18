@@ -15,6 +15,7 @@ color: black;
 }
 .bodyChange p, 
 .bodyChange h2, 
+.bodyChange h3,
 .bodyChange li {
     color: white;
 }

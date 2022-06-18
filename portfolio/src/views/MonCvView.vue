@@ -7,7 +7,7 @@
         <div class=" flex flex-col md:ml-32 md:mr-28 md:flex-row md:justify-between mb-4 md:mb-0">
             <div class="flex items-center justify-center order-2 md:order-none ">
                 <ul class="px-4 pt-8 md:p-4 flex flex-col list--contact">
-                    <h2 class="reference--title font-bold text-center mb-4">Contacts</h2>
+                    <h2 class="reference--title font-bold text-center mb-4 relative --contact">Contacts</h2>
                     <li class="flex decoration-2 duration-500 underline decoration-transparent hover:decoration-black hover:cursor-pointer hover:underline underline-offset-4"><font-awesome-icon :icon="['fas', 'house']" class="text-white li--contact p-2 bg-black rounded-full"/>
                     <span class="ml-2 whitespace-nowrap">Antibes</span> 
                     </li>
@@ -25,33 +25,33 @@
             <div class="moncv--night relative flex flex-col p-4">
                 <h2 class="reference--title --before font-bold text-center mb-4 relative ">HARD SKILLS</h2>
                 <div class="flex flex-col justify-center items-center md:items-start">
-                        <h3>- Mes favoris :</h3>
-                    <ul class="flex flex-col  justify-center items-start md:pb-4">
-                        <li class="ml-20 md:ml-0">
+                        <h3 class="mr-6 md:mr-0">- Mes favoris :</h3>
+                    <ul class="flex flex-col  justify-center items-start md:pb-4 mr-4">
+                        <li class="ml-16 md:ml-0">
                         <font-awesome-icon :icon="['fab', 'vuejs']" class="text-[green] mr-2"/>
                         Vue-js /
                         <font-awesome-icon :icon="['fab', 'js']" class="text-[yellow] bg-black mr-2"/>
                         JavaScript
                         </li>
-                        <li class="ml-20 md:ml-0"><font-awesome-icon :icon="['fab', 'html5']" class="text-[blue] mr-2"/>
+                        <li class="ml-16 md:ml-0"><font-awesome-icon :icon="['fab', 'html5']" class="text-[blue] mr-2"/>
                         Html/Css
                         </li>
                     </ul>
-                    <ul class="flex flex-col justify-center  items-start">
-                        <h2 class="ml-12 md:ml-0">- Mes occasionnels : </h2>
-                        <li class="ml-12 md:ml-0">
+                    <ul class="flex flex-col justify-center  items-start mr-4">
+                        <h2 class="ml-6 md:ml-0">- Mes occasionnels : </h2>
+                        <li class="ml-6 md:ml-0">
                         <font-awesome-icon :icon="['fab', 'node-js']" class="text-[green] mr-2"/>
                         Express/NodeJS
                         </li>
-                        <li class="ml-12 md:ml-0">
+                        <li class="ml-6 md:ml-0">
                         <font-awesome-icon :icon="['fas', 'cube']" class="text-[#3e869d] mr-2"/>
                         Sequelize
                         </li>
-                        <li class="ml-12 md:ml-0"><font-awesome-icon :icon="['fab', 'laravel']" class="text-[orange] mr-2"/>
+                        <li class="ml-6 md:ml-0"><font-awesome-icon :icon="['fab', 'laravel']" class="text-[orange] mr-2"/>
                         Laravel/PHP
                         </li>
                     </ul>
-                    <ul class="flex flex-col justify-center  items-start pt-4">
+                    <ul class="flex flex-col justify-center  items-start pt-4 mr-12">
                         <h2>- Mes outils : </h2>
                         <li>
                         <font-awesome-icon :icon="['fab', 'git-alt']" class="text-[orange] mr-2"/>
@@ -69,24 +69,26 @@
             </div>
             <div class="moncv--night relative h-[190px] md:p-4">
                 <h2 class="reference--title font-bold text-center mb-4 --before relative">SOFT SKILLS</h2>
-                <ul class="flex flex-col justify-center items-start">
-                    <h3>- Mes principaux :</h3>
-                    <li>
-                    <font-awesome-icon :icon="['fas', 'people-group']" class="text-black"/>
-                    Travailler en équipe
-                    </li>
-                    <li>
-                    <font-awesome-icon :icon="['fas', 'handshake-angle']" class="text-black mr-2"/>
-                    Entraide
-                    </li>
-                    <li>
-                    <font-awesome-icon :icon="['fas', 'address-book']" class="text-black mr-2"/>
-                    Réseau de contacts
-                    </li>
-                    <li><font-awesome-icon :icon="['fas', 'hand-fist']" class="text-black mr-2"/>
-                    Persévérance
-                    </li>
-                </ul>
+                <div class="flex flex-col justify-center items-center">
+                    <ul class="flex flex-col justify-center items-start">
+                        <h3>- Mes principaux :</h3>
+                        <li>
+                        <font-awesome-icon :icon="['fas', 'people-group']" class="text-black"/>
+                        Travailler en équipe
+                        </li>
+                        <li>
+                        <font-awesome-icon :icon="['fas', 'handshake-angle']" class="text-black mr-2"/>
+                        Entraide
+                        </li>
+                        <li>
+                        <font-awesome-icon :icon="['fas', 'address-book']" class="text-black mr-2"/>
+                        Réseau de contacts
+                        </li>
+                        <li><font-awesome-icon :icon="['fas', 'hand-fist']" class="text-black mr-2"/>
+                        Persévérance
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -237,10 +239,29 @@ h2.--before::before {
 
 @keyframes h2--before  {
         0%{
+            width: 0;
+        }
+        100% {
+            width: 100px;
+    }
+}
+
+h2.--contact::before {
+    content: "";
+    height: 3px;
+    background-color: #ED69BD;
+    position: absolute;
+    bottom: 0;
+    top: 26px;
+    animation: h2--contact 0.8s linear forwards
+}
+
+@keyframes h2--contact  {
+        0%{
             width: 0px;
         }
         100% {
-            width: 70px;
+            width: 65px;
     }
 }
 </style>
