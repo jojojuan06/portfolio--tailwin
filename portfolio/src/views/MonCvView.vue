@@ -23,9 +23,9 @@
                 </ul> 
             </div>
             <div class="moncv--night relative flex flex-col p-4">
-                <h2 class="reference--title --before font-bold text-center mb-4 relative ">HARD SKILLS</h2>
+                <h2 class="reference--title --before font-bold text-center mb-4 relative ">Hard Skills</h2>
                 <div class="flex flex-col justify-center items-center md:items-start">
-                        <h3 class="mr-6 md:mr-0">- Mes favoris :</h3>
+                        <h3 class="mr-6 md:mr-0 font-bold">Mes favoris :</h3>
                     <ul class="flex flex-col  justify-center items-start md:pb-4 mr-4">
                         <li class="ml-16 md:ml-0">
                         <font-awesome-icon :icon="['fab', 'vuejs']" class="text-[green] mr-2"/>
@@ -38,7 +38,7 @@
                         </li>
                     </ul>
                     <ul class="flex flex-col justify-center  items-start mr-4">
-                        <h2 class="ml-6 md:ml-0">- Mes occasionnels : </h2>
+                        <h2 class="ml-6 md:ml-0 font-bold">Mes occasionnels : </h2>
                         <li class="ml-6 md:ml-0">
                         <font-awesome-icon :icon="['fab', 'node-js']" class="text-[green] mr-2"/>
                         Express/NodeJS
@@ -52,7 +52,7 @@
                         </li>
                     </ul>
                     <ul class="flex flex-col justify-center  items-start pt-4 mr-12">
-                        <h2>- Mes outils : </h2>
+                        <h2 class="font-bold">Mes outils : </h2>
                         <li>
                         <font-awesome-icon :icon="['fab', 'git-alt']" class="text-[#f05033] mr-2"/>
                         Git
@@ -68,10 +68,10 @@
                 
             </div>
             <div class="moncv--night relative h-[190px] md:p-4">
-                <h2 class="reference--title font-bold text-center mb-4 --before relative">SOFT SKILLS</h2>
+                <h2 class="reference--title font-bold text-center mb-4 --before relative">Soft Skills</h2>
                 <div class="flex flex-col justify-center items-center">
                     <ul class="flex flex-col justify-center items-start">
-                        <h3>- Mes principaux :</h3>
+                        <h3 class="font-bold">Mes principaux :</h3>
                         <li>
                         <font-awesome-icon :icon="['fas', 'people-group']" class="moncv--icon text-black"/>
                         Travailler en équipe
