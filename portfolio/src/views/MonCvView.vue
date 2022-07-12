@@ -23,7 +23,7 @@
                 </ul> 
             </div>
             <div class="moncv--night relative flex flex-col p-4">
-                <h2 class="reference--title --before font-bold text-center mb-4 relative ">Hard Skills</h2>
+                <h2 class="reference--title --before font-bold text-center mb-4 relative pb-2 md:pb-0">Hard Skills</h2>
                 <div class="flex flex-col justify-center items-center md:items-start">
                         <h3 class="mr-6 md:mr-0 font-bold">Mes favoris :</h3>
                     <ul class="flex flex-col  justify-center items-start md:pb-4 mr-4">
@@ -242,7 +242,7 @@ h2.--before::before {
             width: 0;
         }
         100% {
-            width: 100px;
+            width: 80px;
     }
 }
 

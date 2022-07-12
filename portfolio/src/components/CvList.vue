@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col">
+    <div class="flex flex-col xl:pt-4">
         <ul class="flex flex-wrap justify-center  pt-8 items-center">
             <li class="self-start flex  grow basis-[400px] pt-4 pb-8 flex-col justify-center items-center" v-for="(cv, index) in listCv" :key="index">
             <h2 class="font-bold text-center --before relative pb-2">{{cv.title}}</h2>
