@@ -11,18 +11,12 @@
             />
           </router-link>
         </div>
-        <ul
-          class="md:flex md:items-center"
-          v-for="(item, index) in itemMenus"
-          :key="index"
-        >
-          <li class="p-6 cursor-pointer hover:bg-[#ED69BD] font-nav duration-500 md:rounded-none rounded-[16px] mx-4">
-            <RouterLink
-              :to="item.path"
-              class="text-xl text-white font-semibold target:shadow-lg"
-              >{{ item.title }}</RouterLink
-            >
-          </li>
+        <ul class="md:flex md:items-center" v-for="(item, index) in itemMenus" :key="index">
+          <RouterLink :to="item.path" class="text-xl text-white font-semibold target:shadow-lg">
+            <li class="p-6 cursor-pointer hover:bg-[#ED69BD] font-nav duration-500 md:rounded-none rounded-[16px] mx-4">
+              {{ item.title }}
+            </li>
+          </RouterLink>
         </ul>
       </nav>
     </div>
