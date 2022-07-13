@@ -9,7 +9,7 @@
             <div style="max-width:400px;" class="flex flex-col justify-center items-center">
                 <h2 class="font-bold">Bonjour !</h2>
                 <br>
-                <p class="font-bold">Je m’apelle Jonh</p>
+                <p class="font-bold">Je m’appelle Jonh</p>
                 <br>
                 <p class="font-bold w-2/4 text-center">J'habite <font-awesome-icon :icon="['fas', 'location-dot']" class=""/> Juans les pins
                 Je vous présente mon portfolio  qui est représentatif de mes qualitées et mon experience en tant que <strong class="text-[#EEAB61]">Web Developer </strong>! 

@@ -5,7 +5,7 @@
       <!-- Image -->
       <div class="flex justify-between">
           <div class="flex font-bold">
-            <h2 class="mr-1">Project:</h2>
+            <h2 class="mr-1">Projet:</h2>
             <h2 style="color:#ED69BD;">{{cardData.projectnumber}}</h2>
           </div>
           <div class="flex">
