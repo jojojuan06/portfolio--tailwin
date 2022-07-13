@@ -10,8 +10,8 @@ background-color: white;
 transition:all 0.5s;
 
 }
-.bodyChange a {
-color: black;
+.bodyChange .nav--title {
+    color: black;
 }
 .bodyChange p, 
 .bodyChange h2, 
